@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Source Sans 3', sans-serif;
+    text-align: center;
+}
+
+header {
+    border-bottom: 1px solid gray;
+}
+
+.user-avatar {
+    border-radius: 100%;
+    width: 34px;
+    padding: 10px;
+}
+
+.profile-avatar {
+    border-radius: 100%;
+    width: 34px;
+}
+
+.logo {
+    padding-left: 10px;
+    margin-right: 180px;
+    width: 127px;
+}
+
+.container {
+    display: inline-block;
+    margin: 0 auto;
+    text-align: left;
+    width: 375px;
+    /* border: 1px solid yellow; */
+}
+.profile {
+    display: flex;
+}
+.profile-avatar {
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 100%;
+    width: 34px;
+    height: 34px; 
+}
+.name, .user-comment {
+    font-size: 13px;
+    font-weight: bold;
+}
+.location {
+    font-size: 13px;
+    font-weight: normal;
+}
+.photo-post {
+    width: 100%;
+}
+.icon-buttons {
+    display: flex;
+}
+button {
+    background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+
+}
+
+.icon-btn {
+
+    width: 30px;
+    padding: 10px 5px;
+    /* height: 18px; */
+}
+
+.icon-btn:hover {
+    opacity: 0.5; 
+    transition: opacity 0.3s;
+}
+
+.likes p {
+    font-size: 13px;
+    font-weight: bold;
+    padding-left: 10px;
+}
+.user-comment {
+    margin-right: 5px;
+}
