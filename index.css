@@ -7,17 +7,25 @@ html, body {
 
 header {
     border-bottom: 1px solid gray;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
 }
 
 .user-avatar {
     border-radius: 100%;
     width: 34px;
-    padding: 10px;
+    height: 34px;
+    margin-left: auto;
 }
 
-.profile-avatar {
-    border-radius: 100%;
-    width: 34px;
+.container {
+    text-align: left;
+    max-width: 375px;
+    margin: 0 auto;
+    padding: 10px;
 }
 
 .logo {
@@ -26,65 +34,72 @@ header {
     width: 127px;
 }
 
-.container {
-    display: inline-block;
-    margin: 0 auto;
-    text-align: left;
-    width: 375px;
-    /* border: 1px solid yellow; */
-}
 .profile {
     display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    border-bottom: 1px solid gray;
 }
+
 .profile-avatar {
-    margin-top: 10px;
-    margin-right: 10px;
     border-radius: 100%;
     width: 34px;
-    height: 34px; 
+    height: 34px;
+    margin-right: 10px;
 }
-.name, .user-comment {
+
+.profile-info {
+    flex-grow: 1;
+}
+
+.name {
     font-size: 13px;
     font-weight: bold;
+    margin-bottom: 0;
 }
+
 .location {
+    margin-top: 2px;
     font-size: 13px;
     font-weight: normal;
 }
+
 .photo-post {
     width: 100%;
+    margin-top: 10px;
 }
+
 .icon-buttons {
     display: flex;
+    margin-top: 10px;
 }
+
 button {
     background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }
 
 .icon-btn {
-
     width: 30px;
     padding: 10px 5px;
-    /* height: 18px; */
 }
 
 .icon-btn:hover {
-    opacity: 0.5; 
+    opacity: 0.5;
     transition: opacity 0.3s;
 }
 
-.likes p {
+.likes {
     font-size: 13px;
     font-weight: bold;
-    padding-left: 10px;
+    margin-top: 10px;
 }
+
 .user-comment {
     margin-right: 5px;
 }
