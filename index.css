@@ -16,12 +16,15 @@ header {
 
 .user-avatar {
     border-radius: 100%;
-    width: 34px;
+    width: 32px;
     height: 34px;
     margin-left: auto;
 }
 
 .container {
+
+    border: 1px solid #252525;
+    border-radius: 30px;
     text-align: left;
     max-width: 375px;
     margin: 0 auto;
@@ -102,4 +105,6 @@ button {
 
 .user-comment {
     margin-right: 5px;
+    font-size: 15px;
+    font-weight: bold;
 }
